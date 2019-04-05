@@ -1,0 +1,33 @@
+{
+  "name": "dpl-bags-webapi",
+  "version": "1.0.0",
+  "description": "DPL Bags Web API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dushanrandika/dpl-bags-webapi.git"
+  },
+  "keywords": [
+    "dpl",
+    "bags",
+    "web",
+    "api"
+  ],
+  "author": "Dushan Randika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dushanrandika/dpl-bags-webapi/issues"
+  },
+  "homepage": "https://github.com/dushanrandika/dpl-bags-webapi#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
